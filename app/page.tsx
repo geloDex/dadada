@@ -9,7 +9,7 @@ import Confetti from "./components/Confetti"
 
 export default function BirthdayPage() {
   const [showConfetti, setShowConfetti] = useState(false)
-  const { width, height } = useWindowSize()
+  const {  } = useWindowSize()
   const [wishesVisible, setWishesVisible] = useState(Array(6).fill(false))
   const [countdown, setCountdown] = useState(10)
   const [showBirthdayMessage, setShowBirthdayMessage] = useState(false)
@@ -142,10 +142,10 @@ export default function BirthdayPage() {
           transition={{ delay: 0.2 }}
         >
           <h2 className="text-2xl sm:text-3xl font-semibold text-pink-600 mb-4 flex items-center justify-center">
-            <Cake className="mr-2" /> It's Your Special Day! <Cake className="ml-2" />
+            <Cake className="mr-2" /> Its Your Special Day! <Cake className="ml-2" />
           </h2>
           <p className="text-base sm:text-lg text-pink-700 text-center mb-6">
-            Today is all about you, your birthday girl! Let's make it magical and unforgettable!
+            Today is all about you, your birthday girl! Lets make it magical and unforgettable!
           </p>
           <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
             <Button className="bg-pink-500 hover:bg-pink-600 w-full sm:w-auto" onClick={toggleParty}>
